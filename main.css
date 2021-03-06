@@ -1,0 +1,804 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(218, 28%, 13%);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.firstPage {
+  background-color: hsl(217, 28%, 15%);
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+.navigationsPanel img {
+  float: left;
+  padding: 40px;
+  width: 150px;
+}
+.navigationsPanel {
+  flex-basis: 1%;
+}
+
+.navigationsPanel ul {
+  display: flex;
+  list-style: none;
+  padding: 10px 15px;
+  float: right;
+}
+.navigationsPanel ul li {
+  font-size: 22px;
+  margin-left: 30px;
+  padding: 10px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+#pic1 {
+  width: 30%;
+  margin-left: 15%;
+  margin-top: 35px;
+}
+.mainbody h3 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  width: 50%;
+  margin: auto;
+  z-index: 2;
+  font-family: "Raleway", sans-serif;
+}
+.mainbody p {
+  width: 34%;
+  text-align: center;
+  margin: auto;
+  color: white;
+  margin-top: 10px;
+  z-index: 5;
+}
+
+.mainbody {
+  position: relative;
+  z-index: 3;
+}
+#bottomDesign {
+  margin-top: -14%;
+  width: 70%;
+  height: 40%;
+  margin-left: 15%;
+  position: absolute;
+  z-index: 1;
+}
+.button {
+  color: white;
+  background: hsl(198, 60%, 50%);
+  padding: 10px 15px;
+  font-size: 23px;
+  margin: 20px 40%;
+  transition: 1s;
+  width: 240px;
+  border-radius: 40px;
+  z-index: 4;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+h5:hover {
+  background-color: rgb(238, 154, 29);
+  color: black;
+}
+.navigationsPanel ul li:hover {
+  border-bottom: 2px solid hsl(198, 60%, 50%);
+  cursor: pointer;
+}
+/* this is the end of the first page*/
+@media screen and (max-width: 1300px) {
+  .firstPage {
+    height: 100vh;
+  }
+  #pic1 {
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 21px;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mainbody h3 {
+    width: 75%;
+  }
+  #pic1 {
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 21px;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+  .mainbody p {
+    width: 45%;
+  }
+  .button {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1095px) {
+  #pic1 {
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 21px;
+  }
+  .firstPage {
+    height: 110vh;
+  }
+  .mainbody h3 {
+    font-size: 30px;
+    width: 85%;
+  }
+  .mainbody p {
+    font-size: 19px;
+    width: 55%;
+  }
+  .button {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .mainbody h3 {
+    width: 85%;
+    font-size: 28px;
+  }
+  #pic1 {
+    width: 55%;
+    margin-left: 5px;
+    margin-top: -21px;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+  .mainbody p {
+    width: 65%;
+
+    margin-bottom: 30px;
+  }
+  .button {
+    display: block;
+    margin: 15px auto;
+  }
+}
+@media screen and (max-width: 853px) {
+  #pic1 {
+    width: 66%;
+    margin-left: 140px;
+    margin-top: -72px;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+  .mainbody h3 {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mainbody h3 {
+    width: 85%;
+  }
+  #pic1 {
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 1px;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+  .mainbody p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .navigationsPanel ul li {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .navigationsPanel ul li {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .navigationsPanel img {
+    width: 15%;
+  }
+  .mainbody p {
+    font-size: 15px;
+  }
+  #pic1 {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 21px;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 570px) {
+  .navigationsPanel ul li {
+    font-size: 12px;
+  }
+  .mainbody h3 {
+    font-size: 20px;
+    width: 90%;
+  }
+  #pic1 {
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .mainbody p {
+    font-size: 15px;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navigationsPanel ul li {
+    margin: 10px auto;
+  }
+  .firstPage {
+    height: 100vh;
+  }
+  #pic1 {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: -11%;
+  }
+}
+@media screen and (max-width: 378px) {
+  .navigationsPanel ul li {
+    margin: 10px auto;
+    padding: 5px;
+  }
+
+  #pic1 {
+    width: 60%;
+    margin-left: 20px;
+    margin-top: -41px;
+  }
+  .mainbody h3 {
+    width: 75%;
+  }
+  .mainbody p {
+    width: 70%;
+    font-size: 12px;
+  }
+}
+.secondPage {
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(218, 28%, 13%);
+  position: relative;
+}
+.container2 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  justify-content: space-around;
+}
+.firstPart {
+  flex-basis: 40%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 80px;
+  height: 160px;
+  padding: 30px;
+}
+.firstPart h4 {
+  font-size: 20px;
+  color: white;
+}
+.firstPart p {
+  font-size: 15px;
+  color: white;
+}
+.firstPart:nth-child(2) img {
+  width: 65px;
+}
+
+@media screen and (max-width: 800px) {
+  .firstPart img {
+    width: 100px;
+  }
+  .firstPart {
+    flex-basis: 100%;
+  }
+  .firstPart h4 {
+    font-size: 14px;
+    width: 200px;
+    margin: auto;
+  }
+  .secondPage {
+    width: 100%;
+  }
+  body {
+    background-color: hsl(218, 28%, 13%);
+  }
+}
+.thirdpage {
+  width: 100%;
+  margin-top: 8%;
+  position: relative;
+}
+.cont3 {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+}
+p {
+  font-family: "Open Sans";
+}
+.image img {
+  flex-basis: 50%;
+  width: 89%;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.left3page {
+  flex-basis: 30%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.left3page h3 {
+  color: white;
+  font-size: 35px;
+  font-family: "Raleway";
+}
+.left3page p {
+  color: white;
+  font-size: 14px;
+}
+.left3page a {
+  color: hsl(176, 68%, 64%);
+  padding-bottom: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.left3page a:hover {
+  color: yellowgreen;
+}
+.left3page .fa {
+  color: black;
+  background-color: hsl(176, 68%, 64%);
+  font-size: 10px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 45px;
+}
+@media screen and (max-width: 800px) {
+  .secondPage {
+    height: 200vh;
+  }
+  .image img {
+    margin: auto 7%;
+  }
+  .left3page {
+    flex-basis: 100%;
+  }
+  .patel {
+    flex-basis: 60%;
+  }
+}
+@media screen and (max-width: 1208px) {
+  .left3page {
+    flex-basis: 100%;
+    margin: auto;
+    margin-left: 10%;
+  }
+  .left3page h2 {
+    font-size: 30px;
+  }
+  .left3page p {
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .left3page p {
+    font-size: 14px;
+    width: 80%;
+  }
+  .user-detail {
+    margin-top: -4%;
+  }
+}
+.testimonial {
+  width: 100%;
+  height: 70vh;
+}
+.test5 {
+  display: flex;
+  justify-content: space-around;
+  margin: 15% 1% 40px;
+  flex-wrap: wrap;
+}
+.patel {
+  background-color: hsl(217, 28%, 15%);
+  margin: 10px;
+  padding: 20px 15px;
+  color: white;
+  font-family: "Open sans";
+  font-size: 15px;
+  border-radius: 13px;
+  transition: 1s;
+}
+.patel p {
+  font-weight: 500;
+  max-width: 350px;
+  margin-bottom: 40px;
+}
+.patel img {
+  float: left;
+  border-radius: 50%;
+
+  width: 10%;
+}
+
+.user-detail {
+  margin-left: 40px;
+}
+.user-detail p {
+  font-size: 13px;
+  font-weight: 800;
+}
+.user-detail span {
+  font-size: 12px;
+  font-weight: 500;
+}
+@media screen and (max-width: 390px) {
+  .patel img {
+    width: 19%;
+  }
+  .user-detail {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+}
+#footer {
+  width: 100%;
+  background-color: hsl(216, 53%, 9%);
+}
+.main-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "raleway";
+  font-weight: 500;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot {
+  position: relative;
+  height: 450px;
+  bottom: 0;
+}
+#early-access {
+  max-width: 50%;
+  height: 40%;
+  position: absolute;
+  top: -20%;
+  left: 20%;
+  color: white;
+  background-color: hsl(217, 28%, 15%);
+  padding: 20px 80px;
+  text-align: center;
+
+  font-family: "raleway";
+}
+
+#col2,
+#col3,
+#col4 {
+  flex-basis: 15%;
+  margin-top: 15%;
+}
+
+#col1 {
+  flex-basis: 22%;
+  margin-top: 15%;
+  margin-left: 20px;
+}
+
+input {
+  width: 50%;
+  border: 1px solid;
+  padding: 10px 15px;
+  border-radius: 45px;
+  border-width: 0;
+  border: none;
+  color: black;
+  font-family: "raleway";
+  font-weight: 700;
+
+  font-family: "raleway";
+}
+input:hover {
+  background-color: wheat;
+}
+#button {
+  width: 32%;
+  border-width: 0;
+  border: none;
+  border-radius: 45px;
+  padding: 10px 15px;
+  background-color: hsl(198, 60%, 50%);
+  font-family: "raleway";
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+  transition: 0.5s;
+}
+#button:hover {
+  background-color: hsl(176, 68%, 64%);
+  color: white;
+}
+
+.main-foot img {
+  width: 45%;
+  padding: 10px;
+  margin-left: 10px;
+}
+.det {
+  display: flex;
+}
+.det i {
+  display: block;
+  font-size: 35px;
+  color: white;
+  flex-basis: 5%;
+  margin-top: 2%;
+  padding: 10px;
+}
+.det p {
+  flex-basis: 70%;
+  font-family: "raleway";
+  font-size: 15px;
+  color: white;
+}
+#col2,
+#col3,
+#col4,
+#col5 {
+  margin-top: 20%;
+  color: white;
+  font-family: "raleway";
+}
+#col2 .fa {
+  margin-right: 20px;
+}
+
+#col5 .fa {
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 60px;
+  margin: 1px;
+}
+#col5 .fa:nth-child(1) {
+  width: 15px;
+  text-align: center;
+}
+
+#col5 .fa:hover {
+  color: hsl(73, 100%, 58%);
+  background-color: hsl(217, 28%, 15%);
+}
+@media screen and (max-width: 600px) {
+  .main-foot {
+    flex-wrap: wrap;
+  }
+  .testimonial {
+    height: 60vh;
+    margin-top: 25%;
+  }
+
+  #early-access {
+    top: -79%;
+    height: 70%;
+    left: 10px;
+    margin: auto;
+    max-width: 90%;
+  }
+  #button {
+    width: 110%;
+    margin-top: 5%;
+    display: block;
+    margin: 5% auto;
+    font-size: 18px;
+    padding: 20px;
+  }
+  #inppp {
+    width: 100%;
+    padding: 20px;
+  }
+  #col1,
+  #col2 {
+    flex-basis: 90%;
+    margin: 0;
+  }
+  #col1 img {
+    margin: 30px auto 1px;
+  }
+  #col1 p {
+    font-size: 17px;
+    flex-basis: 90%;
+    text-align: left;
+  }
+  #col3,
+  #col4 {
+    flex-basis: 90%;
+    margin: 0;
+  }
+  #col5 {
+    margin-top: 26px;
+  }
+  .main-foot {
+    background-color: hsl(216, 53%, 9%);
+  }
+  #col5 .fa {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  #early-access {
+    top: -90%;
+    height: 80%;
+  }
+  #button {
+    padding: 15px;
+    margin-top: 20px;
+  }
+  #inppp {
+    padding: 15px;
+  }
+  #early-access h3 {
+    font-size: 18px;
+  }
+  #early-access p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .testimonial {
+    height: 150vh;
+  }
+  #col3,
+  #col4 {
+    flex-basis: 10%;
+  }
+  #col1 {
+    flex-basis: 35%;
+  }
+  #col2 {
+    flex-basis: 25%;
+  }
+
+  #button {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 914px) {
+  #col5 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 805px) {
+  .main-foot {
+    flex-wrap: wrap;
+  }
+  .testimonial {
+    height: 180vh;
+  }
+  #col5 {
+    margin-top: 10px;
+    padding: 20px;
+  }
+  #col5 .fa {
+    margin: 10px;
+  }
+  #early-access {
+    top: -79%;
+    height: 70%;
+    left: 10px;
+    margin: auto;
+    max-width: 90%;
+  }
+  #button {
+    width: 110%;
+    margin-top: 5%;
+    display: block;
+    margin: 5% auto;
+    font-size: 18px;
+    padding: 13px;
+  }
+  #inppp {
+    width: 100%;
+    padding: 15px;
+  }
+  #col1,
+  #col2 {
+    flex-basis: 90%;
+    margin: 0;
+  }
+  #col1 img {
+    margin: 30px auto 1px;
+  }
+  #col1 p {
+    font-size: 17px;
+    flex-basis: 90%;
+    text-align: left;
+  }
+  #col3,
+  #col4 {
+    flex-basis: 90%;
+    margin: 0;
+  }
+  .main-foot {
+    background-color: hsl(216, 53%, 9%);
+  }
+  #col5 .fa {
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    width: 120%;
+  }
+  #footer {
+    width: 115%;
+  }
+  .firstPage {
+    width: 120%;
+  }
+}
+.patel:nth-child(1) {
+  position: relative;
+}
+.patel:nth-child(1) #quote {
+  position: absolute;
+  top: -36px;
+  width: 15%;
+  left: 0;
+}
+@media screen and (max-width: 600px) {
+  .patel:nth-child(1) #quote {
+    top: -25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .patel:nth-child(1) #quote {
+    top: -15px;
+  }
+}
+.patel:hover {
+  transform: translateY(-12px);
+}
